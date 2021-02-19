@@ -1,0 +1,103 @@
+@import "../../common/style.css";
+
+.display {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-form-curtain);
+  z-index: 1000;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8em;
+  width: var(--size-form-box);
+  border-radius: 0.5em;
+  background-color: var(--color-form-box);
+}
+
+.closeBtn,
+.submitBtn {
+  font-size: var(--font-form-title);
+  color: var(--color-white);
+  align-self: flex-end;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+  position: relative;
+  padding-bottom: 0.2em;
+}
+
+.closeBtn:hover {
+  transform: scale(1.2);
+}
+
+.formTitle,
+.formSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+.title {
+  font-size: var(--font-form-title);
+  color: var(--color-white);
+  margin-bottom: 0.3em;
+}
+
+.input {
+  background-color: var(--color-form-input);
+  height: 2em;
+  font-size: var(--font-form-input);
+  color: var(--color-white);
+  padding-left: 0.5em;
+  resize: none;
+}
+
+.input::-webkit-scrollbar {
+  display: none;
+}
+
+.input:focus {
+  background-color: var(--color-form-inputF);
+}
+
+.inputNote {
+  height: 8em;
+}
+
+.submitBtn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--color-white);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.submitBtn:hover::before {
+  transform: scaleX(1);
+}
+
+.submitBtn::before {
+  transform-origin: center;
+}
+
+@media screen and (max-width: 650px) {
+  .display {
+    padding: 0 2em 0 2em;
+  }
+  .formBox {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Binggrae-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* Size */
+  --size-form-box: 600px;
+  --size-item-height: 230px;
+
+  /* Color */
+  --color-black: #2f3437;
+  --color-white: rgb(245, 245, 245);
+  --color-font-white: #ebebeb;
+  --color-font-black: #2f3437;
+  --color-form-curtain: rgba(0, 0, 0, 0.5);
+  --color-form-box: rgba(80, 80, 80, 0.7);
+  --color-form-input: rgb(42, 42, 42);
+  --color-form-inputF: rgb(60, 60, 60);
+  --color-item-border: #d0d0d0;
+  --color-item-note: #6fb3db2a;
+
+  /* Font Size */
+  --font-header: 20px;
+  --font-form-title: 16px;
+  --font-form-input: 14px;
+  --font-item-title: 24px;
+  --font-item-sub-title: 20px;
+  --font-item-des: 16px;
+}
