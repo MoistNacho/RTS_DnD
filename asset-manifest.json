@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RTS_DnD/static/css/main.2dff8d20.chunk.css",
+    "main.js": "/RTS_DnD/static/js/main.03b0d1e5.chunk.js",
+    "main.js.map": "/RTS_DnD/static/js/main.03b0d1e5.chunk.js.map",
+    "runtime-main.js": "/RTS_DnD/static/js/runtime-main.6d2b50c4.js",
+    "runtime-main.js.map": "/RTS_DnD/static/js/runtime-main.6d2b50c4.js.map",
+    "static/js/2.5a330ad3.chunk.js": "/RTS_DnD/static/js/2.5a330ad3.chunk.js",
+    "static/js/2.5a330ad3.chunk.js.map": "/RTS_DnD/static/js/2.5a330ad3.chunk.js.map",
+    "index.html": "/RTS_DnD/index.html",
+    "static/css/main.2dff8d20.chunk.css.map": "/RTS_DnD/static/css/main.2dff8d20.chunk.css.map",
+    "static/js/2.5a330ad3.chunk.js.LICENSE.txt": "/RTS_DnD/static/js/2.5a330ad3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d2b50c4.js",
+    "static/js/2.5a330ad3.chunk.js",
+    "static/css/main.2dff8d20.chunk.css",
+    "static/js/main.03b0d1e5.chunk.js"
+  ]
+}
